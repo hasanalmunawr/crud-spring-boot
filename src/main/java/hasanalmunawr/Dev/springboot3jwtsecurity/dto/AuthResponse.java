@@ -11,6 +11,9 @@ public class AuthResponse {
     @JsonProperty("access_token")
     private String accessToken;
 
+    @JsonProperty("access_token_expiry")
+    private int accessTokenExpiry;
+
     @JsonProperty("refresh_token")
     private String refreshToken;
 }
